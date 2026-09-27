@@ -28,8 +28,6 @@ import 'package:provider/provider.dart';
 class PontoModel extends FlutterFlowModel<PontoWidget> {
   ///  State fields for stateful widgets in this page.
 
-  // Stores action output result for [Backend Call - API (reconhecimento)] action in CameraPhoto widget.
-  ApiCallResponse? apiResult817;
   bool isDataUploading_uploadDataXie = false;
   FFUploadedFile uploadedLocalFile_uploadDataXie =
       FFUploadedFile(bytes: Uint8List.fromList([]));
