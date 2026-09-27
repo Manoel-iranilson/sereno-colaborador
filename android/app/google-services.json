@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "202709336786",
+    "project_id": "colaborador-job-yxslmx",
+    "storage_bucket": "colaborador-job-yxslmx.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:202709336786:android:3d42dfaa682a620b3ba30b",
+        "android_client_info": {
+          "package_name": "com.mycompany.colaboradorjob"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCyq-VKZYMWRgD2bUGvnl6ffH8gCLC9oh4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
