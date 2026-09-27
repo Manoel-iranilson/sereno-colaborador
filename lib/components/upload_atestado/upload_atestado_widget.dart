@@ -323,9 +323,7 @@ class _UploadAtestadoWidgetState extends State<UploadAtestadoWidget> {
                   mainAxisAlignment: MainAxisAlignment.spaceBetween,
                   children: [
                     FFButtonWidget(
-                      onPressed: () {
-                        print('Button pressed ...');
-                      },
+                      onPressed: () {},
                       text: 'Cancelar',
                       options: FFButtonOptions(
                         width: 120.0,

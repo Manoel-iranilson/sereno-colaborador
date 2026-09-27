@@ -23,10 +23,4 @@ class FFAppState extends ChangeNotifier {
     callback();
     notifyListeners();
   }
-
-  String _fcmToken = '';
-  String get fcmToken => _fcmToken;
-  set fcmToken(String value) {
-    _fcmToken = value;
-  }
 }

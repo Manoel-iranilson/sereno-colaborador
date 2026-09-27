@@ -17,7 +17,6 @@ import '/flutter_flow/flutter_flow_util.dart';
 import 'serialization_util.dart';
 
 import '/index.dart';
-import 'package:live_cam_8t99qi/index.dart' as $live_cam_8t99qi;
 
 export 'package:go_router/go_router.dart';
 export 'serialization_util.dart';
@@ -80,11 +79,6 @@ class AppStateNotifier extends ChangeNotifier {
 }
 
 GoRouter createRouter(AppStateNotifier appStateNotifier) {
-  $live_cam_8t99qi.initializeRoutes(
-    homePageWidgetName: 'live_cam_8t99qi.HomePage',
-    homePageWidgetPath: '/homePage_live-cam-8t99qi',
-  );
-
   return GoRouter(
     initialLocation: '/',
     debugLogDiagnostics: true,
@@ -272,16 +266,6 @@ GoRouter createRouter(AppStateNotifier appStateNotifier) {
         path: TrocarSenhaWidget.routePath,
         builder: (context, params) => TrocarSenhaWidget(),
       ),
-      FFRoute(
-        name: $live_cam_8t99qi.HomePageWidget.routeName,
-        path: $live_cam_8t99qi.HomePageWidget.routePath,
-        builder: (context, params) => $live_cam_8t99qi.HomePageWidget(
-          tipo: params.getParam(
-            'tipo',
-            ParamType.String,
-          ),
-        ),
-      )
     ].map((r) => r.toRoute(appStateNotifier)).toList(),
   );
 }
