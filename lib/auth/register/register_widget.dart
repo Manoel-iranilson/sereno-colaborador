@@ -247,7 +247,7 @@ class _RegisterWidgetState extends State<RegisterWidget> {
                                                       FlutterFlowTheme.of(
                                                               context)
                                                           .secondaryBackground,
-                                                  prefixIcon: Icon(
+                                                  prefixIcon: FaIcon(
                                                     FontAwesomeIcons.hashtag,
                                                     color: FlutterFlowTheme.of(
                                                             context)
@@ -419,7 +419,7 @@ class _RegisterWidgetState extends State<RegisterWidget> {
                                                       FlutterFlowTheme.of(
                                                               context)
                                                           .secondaryBackground,
-                                                  prefixIcon: Icon(
+                                                  prefixIcon: FaIcon(
                                                     FontAwesomeIcons.neos,
                                                     color: FlutterFlowTheme.of(
                                                             context)
@@ -589,7 +589,7 @@ class _RegisterWidgetState extends State<RegisterWidget> {
                                                       FlutterFlowTheme.of(
                                                               context)
                                                           .secondaryBackground,
-                                                  prefixIcon: Icon(
+                                                  prefixIcon: FaIcon(
                                                     FontAwesomeIcons.idCard,
                                                     color: FlutterFlowTheme.of(
                                                             context)
