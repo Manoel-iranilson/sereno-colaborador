@@ -36,3 +36,6 @@ ios/.symlinks/
 # Firebase
 firebase/functions/node_modules/
 .firebase/
+
+# Flutter SDK clonado no build da Vercel
+/flutter/
